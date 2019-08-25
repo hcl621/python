@@ -33,3 +33,18 @@ file=open('/home/heygor/0831/memeda','a')
 file.write('\n5kong 120')
 file.close()
 注意：换行是\n
+
+2.文件操作补充
+a.read readline readlines区别
+b.文件操作实例
+
+a.read readline readlines区别
+read  		读取整个文件
+readline    读取下一行
+readlines   读取文件到一个迭代器中供遍历
+b.文件操作实例
+d:\\3.txt 内容
+heygor   110
+o8ma     119
+
+判断110是否存在于文件中
