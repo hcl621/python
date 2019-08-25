@@ -19,7 +19,7 @@ tup=(1,2,3)
 del tup
 #print(tup)
 
-print('______________________')
+#切片和索引
 tup=(1,2,3,4,5)
 print(tup[0])
 print(tup[-2])
@@ -28,7 +28,7 @@ print(tup[3:])  #45
 print(tup[:3])  #123
 
 
-print('______________________')
+#元组的补充
 tup=(1,2,3,4,3,2,8)
 print(len(tup))
 print(max(tup))
