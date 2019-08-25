@@ -11,3 +11,5 @@ with open('/home/heygor/0831/txl2.csv','w') as f:
 	file=csv.writer(f,dialect='excel')
 	file.writerow([1,2,3,4])
 	file.writerow([11,22,33,44])
+	
+print('已经完成')
