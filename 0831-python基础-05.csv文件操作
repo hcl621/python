@@ -11,14 +11,13 @@ a.csv文件
 b.csv文件的读写
 1.csv文件的读
 使用python处理excel文件，需要导入excel模块(自带)
+打印出来的内容是列表，所有内容都是字符类型
 import csv
 
 with open('/home/heygor/0831/txl.csv','r') as f:
         reader=csv.reader(f)
         for i in reader:
                 print(i)
-
-注意：打印出来是列表
 
 2.csv文件的写入
 注意：python生成的excel文件兼容csv的话，创建参数一定要有dialect='excel'
