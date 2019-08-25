@@ -23,3 +23,10 @@ for i in range(10):
 
 for i in range(10,20):
 	print(i)
+
+for i in range(-5,5):
+    #print(i)
+    if i<0:
+        print(-i)
+    else:
+        print(i)
