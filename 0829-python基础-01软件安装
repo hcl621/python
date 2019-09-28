@@ -21,8 +21,8 @@ T:18028768679
 	下载地址:www.python.org
 	Downloads --All releases
 	a.python的常见版本
-		python27
-		python36(推荐)
+		python2.7
+		python3.6.8(推荐)--最好下载最后一位是双数的，单数的一般是测试版本
 	b.系统版本
 		x86    			32位操作系统
 		x86_64  x64 	64位操作系统
